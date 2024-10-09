@@ -3,9 +3,9 @@ const bodyParser = require('body-parser')
 const app = express()
 
 const courses = [
-  { id: '1', title: "JS" , Price: '30'},
-  { id: '2', title: "Javascript", Price: '50' },
-  { id: '3', title: "Python", Price: '40' },
+  { id: '1', title: "JS" , Price: '30', img: 'https://picsum.photos/800'},
+  { id: '2', title: "Javascript", Price: '50' , img: 'https://picsum.photos/800'},
+  { id: '3', title: "Python", Price: '40' , img: 'https://picsum.photos/800'},
 ]
 
 //Middleware"
