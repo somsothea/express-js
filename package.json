@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0"
   },
   "name": "express",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
-    "nodemon": "^3.1.7"
+  "nodemon": "^3.1.7"
   },
   "scripts": {
     "start": "node index.js",
